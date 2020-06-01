@@ -1,12 +1,16 @@
 # Python_crawler :bug:
-> 會把一些練習過的 code 丟在這
-> 下面會做一些簡單的介紹
-
 <p align="center">
     <a href="">
         <img src="https://img.shields.io/badge/未完-間斷性更新-brightgreen">
     </a>
+    <a href="">
+        <img src="https://img.shields.io/badge/Python-3.8-9cf">
+    </a>
 </p>
+一些簡單基本的爬蟲例子，新手好學習
+> 會把一些練習過的 code 丟在這
+> 下面會做一些簡單的介紹
+
 
 # Setup
 會使用到的套件
