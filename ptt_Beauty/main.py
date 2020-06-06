@@ -39,7 +39,7 @@ def in_Url(dict_info):
             count = 1
             for i in img:
                 url_Img = i.get('href')
-                if url_Img[-4:]!='html' and url_Img.find('youtube')==-1 and url_Img.find('instagram')==-1:  # 過濾網址
+                if url_Img[-4:]!='html' and url_Img.find('you')==-1 and url_Img.find('instagram')==-1:  # 過濾網址
                     url_Img+='.jpg' if url_Img[-4]!='.'else ''  # 增加檔名
                     download_img(url_Img, path1, count)
                     count+=1
