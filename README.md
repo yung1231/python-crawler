@@ -8,10 +8,14 @@
     </a>
 </p>
 
-一些簡單基本的爬蟲例子，新手好學習
-
-> 會把一些練習過的 code 丟在這
-> 下面會做一些簡單的介紹
+一些簡單基本的爬蟲例子，新手好學習，會把一些練習過的 code 丟在這，下面會做一些簡單的介紹
+    
+>    Finish：
+    1. Goosping information
+    2. Beauty image
+    
+>    Trying：
+    1. Instagram image  ([Note](https://))
 
 
 # Setup
