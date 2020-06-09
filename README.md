@@ -15,8 +15,9 @@
 > 2. Beauty image
     
 > Trying：
-> 1. Instagram image  ([Note](https://))
-> 2. Dcard image
+> 1. Instagram image ([Note](https://))
+> 2. Dcard image ([Note](https://))
+> 3. Google search Info
 
 
 # Setup
@@ -46,3 +47,22 @@ response = requests.get('https://www.ptt.cc/bbs/Gossiping/index.html')
 
 ## POST
 將要處理的資料提交給指定的資源，類似於更新操作
+
+# BeautifulSoup find tag
+```
+# 取得第一個(h4)，以下寫法皆相同：
+print(soup.find('h4'))
+print(soup.h4)
+
+# 以下寫法皆相同：
+soup.find_all('h4', 'title')
+soup.find_all('h4', {'class': 'title'})
+soup.find_all('h4', class_='title')
+
+# 當 key 含特殊字元時, 使用 dict 取得元件
+print(soup.find(data-foo='mac-foo'))  # 會導致 SyntaxError
+print(soup.find('', {'data-foo': 'mac-foo'}))
+```
+
+# 其他紀錄
+> Google search URL：https://www.google.com/search?q=
