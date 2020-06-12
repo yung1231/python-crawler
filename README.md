@@ -13,12 +13,12 @@
 > Finish：
 > 1. Goosping information
 > 2. Beauty image
+> 3. Instagram image ([Note](https://hackmd.io/@RsJen3MIQR6hHHZ68uAsoA/HkExCi83L))
     
 > Trying：
-> 1. Instagram image ([Note](https://))
-> 2. Dcard image ([Note](https://))
-> 3. Google search Info
-
+> 1. Dcard image
+> 2. Google search Info
+> 3. Oil price
 
 # Setup
 會使用到的套件
@@ -47,6 +47,18 @@ response = requests.get('https://www.ptt.cc/bbs/Gossiping/index.html')
 
 ## POST
 將要處理的資料提交給指定的資源，類似於更新操作
+
+## Status Code
+回應永遠是一個十進位的三位數數字，代表一種 response 的狀態
+- 1xx 系列是資訊回應
+- 2xx 系列是成功回應
+- 3xx 系列是重新導向
+- 4xx 系列是客戶端錯誤
+- 5xx 系列是伺服器端錯誤
+
+比較常見的大概是 200，表示成功
+404 表示沒有這個網頁，或者已移除
+403 表示沒有權限存取等等
 
 # BeautifulSoup find tag
 ```
