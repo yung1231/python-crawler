@@ -17,8 +17,9 @@
     
 > Trying：
 > 1. Dcard image
-> 2. Google search Info
+> 2. Google search Weather
 > 3. Oil price
+> 4. News title
 
 # Setup
 會使用到的套件
