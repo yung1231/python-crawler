@@ -16,14 +16,13 @@
 > 3. Instagram image ([Note](https://hackmd.io/@RsJen3MIQR6hHHZ68uAsoA/HkExCi83L))
 > 4. Google search Weather
 > 5. Google search 
+> 5. Air quality
     
 > Trying：
 > 1. Dcard image
 > 2. Oil price
-> 3. News title
-> 4. Pixiv daily image
-> 5. Air quality
-> 6. Anime info
+> 3. Pixiv daily image
+> 4. Anime info
 
 # Setup
 會使用到的套件
@@ -49,10 +48,12 @@ response = requests.get('https://www.ptt.cc/bbs/Gossiping/index.html')
 
 ## Get
 向指定的資源要求資料，類似於查詢操作
+
 練習網址：```http://pythonscraping.com/pages/page1.html```
 
 ## POST
 將要處理的資料提交給指定的資源，類似於更新操作
+
 練習網址：```http://pythonscraping.com/pages/files/form.html```
 
 ## Status Code
